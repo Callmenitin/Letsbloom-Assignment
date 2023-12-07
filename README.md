@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- **Operating System:** Windows 10/11
+- **Operating System:** Windows 10/11 / Ubuntu
 - **Python:** 3.11.0
 - **Python Packages:**
     - Flask 3.0.0 (if not installed, use command: `pip install flask`)
@@ -12,7 +12,7 @@
 ## Steps
 
 1. Open MySQL command line CLI and create a database named `mydb`.
-2. Modify the details in the `Credentials.txt` file to match your database configuration, except for the database name.
+2. Modify the details in the `Credentials.txt` file to match your database configuration, except for the database name. DONT USE EMPTY PASSWORD.
 3. Run `db.py` to seed the database with mock data. This is the first file that must be executed. Do not proceed without running it.
 4. Run `server.py`: `python server.py`.
 5. The default port of the server is set to 5000. If this port is unavailable, change the port number on line 4 in `server.py`.
