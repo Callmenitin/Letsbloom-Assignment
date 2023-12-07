@@ -12,7 +12,7 @@
 ## Steps
 
 1. Open MySQL command line CLI and create a database named `mydb`.
-2. Modify the details in the `Credentials.txt` file to match your database configuration, except for the database name. DONT USE EMPTY PASSWORD.
+2. Modify the details in the `Credentials.txt` file to match your database configuration, except for the database name. DON'T USE EMPTY PASSWORD.
 3. Run `db.py` to seed the database with mock data. This is the first file that must be executed. Do not proceed without running it.
 4. Run `server.py`: `python server.py`.
 5. The default port of the server is set to 5000. If this port is unavailable, change the port number on line 4 in `server.py`.
