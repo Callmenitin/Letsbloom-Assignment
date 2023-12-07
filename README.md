@@ -7,6 +7,7 @@
 - **Python Packages:**
     - Flask 3.0.0 (if not installed, use command: `pip install flask`)
     - mysql-connector-python 8.2.0 (if not installed, use command: `pip install mysql-connector-python`)
+    - requests `pip install requests`
 
 ## Steps
 
