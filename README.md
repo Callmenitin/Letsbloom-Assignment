@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- **Operating System:** Windows 10/11 / Ubuntu
+- **Operating System:** Windows 10/11 and Ubuntu
 - **Python:** 3.11.0
 - **Python Packages:**
     - Flask 3.0.0 (if not installed, use command: `pip install flask`)
